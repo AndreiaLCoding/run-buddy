@@ -74,8 +74,8 @@ footer a {
 
 section .hero {
     padding: 60px;
-    background-image:url("assets\images\hero-bg.jpg");
     height: 600px;
+    background-image:url("assets\images\hero-bg.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
