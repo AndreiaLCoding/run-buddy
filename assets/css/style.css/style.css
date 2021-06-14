@@ -1,10 +1,12 @@
 /* I'm a CSS comment! Example! */
 /* use this to remove browser specific settings for the whole page-We just told every element on the page to not have any margin or border unless we explicitly tell it to.*/
 /* (asterik in css=match everything_universal selector)*/
+/*The border-box value calculates the height and width of the element by including the border and padding additions to the content box.*/
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -47,3 +49,25 @@ header nav ul li a {
     font-size: 22px;
 }
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
