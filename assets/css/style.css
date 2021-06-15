@@ -72,10 +72,10 @@ footer a {
     color: #024e76;
 }
 
-section .hero {
+.hero {
     padding: 60px;
     height: 600px;
-    background-image:url("assets\images\hero-bg.jpg");
+    background-image:url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -148,12 +148,12 @@ h3 {
     margin: 0 auto;
 }
 
-/*this section is replaced/
+/*this section is replaced*/
 .steps { 
     text-align: center;
     background: #fce138;
 }
-
+/*
 .steps h2 {
     font-size: 55px;
     color: #024e76;
@@ -162,7 +162,7 @@ h3 {
     border-bottom: 3px solid;
     border-color: #39a6b2;
 }
-
+trainers
 reorganize/consolidate styling with the below*/
 
 .section-title {
