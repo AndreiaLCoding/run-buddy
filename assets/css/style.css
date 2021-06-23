@@ -149,9 +149,7 @@ h3 {
     font-size: 16px;
 }
 
-.intro{
-    text-align: center;
-}
+
 
 .intro h2 {
     font-size: 55px;
@@ -169,11 +167,12 @@ h3 {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center
 }
 
 /*this section is replaced*/
 .steps { 
-    text-align: center;
+  
     background: #fce138;
 }
 /*
@@ -191,10 +190,11 @@ reorganize/consolidate styling with the below*/
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -230,7 +230,7 @@ reorganize/consolidate styling with the below*/
 }
 
 .trainers{
-    text-align: center;
+
 }
 
 .trainer{
@@ -260,6 +260,10 @@ reorganize/consolidate styling with the below*/
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -278,7 +282,6 @@ reorganize/consolidate styling with the below*/
 
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -315,6 +318,8 @@ reorganize/consolidate styling with the below*/
 .contact-info a {
     color: #fce138;
 }
+
+
 
   /* REACH OUT STYLES END */
 
